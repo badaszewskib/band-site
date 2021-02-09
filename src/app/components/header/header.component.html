@@ -1,0 +1,20 @@
+<div id="header">
+    <div id="content">
+        <img src="../../../assets/logo.png" style="height: 80px; width: auto;" (click)="scroll('Highlight')">
+        <span>
+            <div class="subheader" id="siteDir">
+                <app-dir txt="Store" (callScroll)="scroll($event)"></app-dir>
+                <app-dir txt="News" (callScroll)="scroll($event)"></app-dir>
+                <app-dir txt="Music" (callScroll)="scroll($event)"></app-dir>
+                <app-dir txt="Videos" (callScroll)="scroll($event)"></app-dir>
+                <app-dir txt="Contact" (callScroll)="scroll($event)"></app-dir>
+            </div>
+            <div class="subheader" id="socMedia">
+                <a href="https://www.youtube.com/channel/UCgE6HinIpFJB_dPTh7M3OyA" class="directory"><img class="icon" src="../../../assets/icons/youtube.png"></a>
+                <a href="" class="directory"><img class="icon" src="../../../assets/icons/soundcloud.png"></a>
+                <a href="" class="directory"><img class="icon" src="../../../assets/icons/instagram.png"></a>
+                <a href="" class="directory"><img class="icon" src="../../../assets/icons/twitter.png"></a>
+            </div>
+        </span>
+    </div>
+</div>

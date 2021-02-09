@@ -1,0 +1,7 @@
+<div class="outer" id="Highlight">
+    <ng-container *ngFor="let slide of slides; let i = index">
+        <img *ngIf="i === currentSlide"  class="slide" [src]="slide.src" @slideAnimation>
+    </ng-container>
+    <button id="prev" (click)="onPreviousClick()">&#10094;</button>
+    <button id="next" (click)="onNextClick()">&#10095;</button>
+</div>

@@ -1,0 +1,10 @@
+div {
+    font-size: 18px;
+    transition: 0.3s ease;
+    flex-grow: 1;
+}
+
+div:hover {
+    color: lightcoral;
+    cursor: pointer;
+}

@@ -1,0 +1,8 @@
+<div class="outer" id="Videos">
+    <h1>Videos</h1>
+    <div id="inner">
+        <div id="videoDisplay" *ngFor="let videoId of videos">
+            <youtube-player videoId="{{videoId}}" [width]="500" [height]="281"></youtube-player>
+        </div>
+    </div>
+</div>

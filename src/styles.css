@@ -1,0 +1,23 @@
+.outer {
+    border-top: 2px solid gray;
+    margin: auto;
+    scroll-margin: 82px;
+}
+
+.content{
+    padding-top: 71px;
+    align-content: center;
+    margin: auto;
+    width: 75%;
+}
+
+html{
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    margin: 5px;
+}
